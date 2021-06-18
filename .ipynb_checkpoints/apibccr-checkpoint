@@ -1,0 +1,116 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "\n",
+    "\n",
+    "\n",
+    "GET = /Indicadores/Suscripciones/WS/wsindicadoreseconomicos.asmx/ObtenerIndicadoresEconomicosXML?Indicador=string&FechaInicio=string&FechaFinal=string&Nombre=string&SubNiveles=string&CorreoElectronico=string&Token=string HTTP/1.1\n",
+    "Host: gee.bccr.fi.cr\n",
+    "    \n",
+    "https://gee.bccr.fi.cr/Indicadores/Suscripciones/WS/wsindicadoreseconomicos.asmx"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "https://gee.bccr.fi.cr/Indicadores/Suscripciones/WS/wsindicadoreseconomicos.asmx"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "invalid syntax (<ipython-input-1-5b0be3def21c>, line 1)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;36m  File \u001b[1;32m\"<ipython-input-1-5b0be3def21c>\"\u001b[1;36m, line \u001b[1;32m1\u001b[0m\n\u001b[1;33m    https://gee.bccr.fi.cr/Indicadores/Suscripciones/WS/wsindicadoreseconomicos.asmx/ObtenerIndicadoresEconomicos?Indicador=string&FechaInicio=string&FechaFinal=string&Nombre=string&SubNiveles=string&CorreoElectronico=string&Token=string HTTP/1.1\u001b[0m\n\u001b[1;37m           ^\u001b[0m\n\u001b[1;31mSyntaxError\u001b[0m\u001b[1;31m:\u001b[0m invalid syntax\n"
+     ]
+    }
+   ],
+   "source": [
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "https://gee.bccr.fi.cr/Indicadores/Suscripciones/WS/wsindicadoreseconomicos.asmx/ObtenerIndicadoresEconomicos?Indicador=string&FechaInicio=string&FechaFinal=string&Nombre=string&SubNiveles=string&CorreoElectronico=string&Token=string HTTP/1.1\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "\n",
+    "\n",
+    "\n",
+    "POST /Indicadores/Suscripciones/WS/wsindicadoreseconomicos.asmx HTTP/1.1\n",
+    "Host: gee.bccr.fi.cr\n",
+    "Content-Type: text/xml; charset=utf-8\n",
+    "Content-Length: length\n",
+    "SOAPAction: \"http://ws.sdde.bccr.fi.cr/ObtenerIndicadoresEconomicos\"\n",
+    "\n",
+    "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n",
+    "<soap:Envelope xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\">\n",
+    "  <soap:Body>\n",
+    "    <ObtenerIndicadoresEconomicos xmlns=\"http://ws.sdde.bccr.fi.cr\">\n",
+    "      <Indicador>string</Indicador>\n",
+    "      <FechaInicio>string</FechaInicio>\n",
+    "      <FechaFinal>string</FechaFinal>\n",
+    "      <Nombre>string</Nombre>\n",
+    "      <SubNiveles>string</SubNiveles>\n",
+    "      <CorreoElectronico>string</CorreoElectronico>\n",
+    "      <Token>string</Token>\n",
+    "    </ObtenerIndicadoresEconomicos>\n",
+    "  </soap:Body>\n",
+    "</soap:Envelope>"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.7.9"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 4
+}
