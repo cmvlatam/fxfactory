@@ -1,4 +1,5 @@
-SELECT TOP (1000) [createdat]
+
+ SELECT TOP (1000) [createdat]
      
       ,[side]
       ,[descliente]
@@ -21,4 +22,5 @@ SELECT TOP (1000) [createdat]
       ,[tradeid]
       ,[tiquetid]
   FROM [dbo].[fullblotter]
+  where tradedate= '2021-07-02'
   order by [createdat] DESC
