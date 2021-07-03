@@ -22,5 +22,5 @@
       ,[tradeid]
       ,[tiquetid]
   FROM [dbo].[fullblotter]
-  where tradedate= '2021-07-02'
+  where tradedate= '2021-07-03'
   order by [createdat] DESC
